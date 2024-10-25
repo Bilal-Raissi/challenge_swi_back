@@ -39,8 +39,11 @@ php artisan serve
 
 ## API
 
-GET    :   /api/contract-articles	   =>  Récupérer la liste des articles de contrat
-POST   :   /api/contract-articles	   =>  Ajouter un nouvel article de contrat
-PUT    :   /api/contract-articles/{id} =>  Modifier un article de contrat existant
-DELETE :   /api/contract-articles/{id} =>  Supprimer un article de contrat
+   GET    :   /api/contract-articles	   =>  Récupérer la liste des articles de contrat
+   #
+   POST   :   /api/contract-articles	   =>  Ajouter un nouvel article de contrat
+   #
+   PUT    :   /api/contract-articles/{id} =>  Modifier un article de contrat existant
+   #
+   DELETE :   /api/contract-articles/{id} =>  Supprimer un article de contrat
 
