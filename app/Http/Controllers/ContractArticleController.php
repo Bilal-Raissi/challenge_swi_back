@@ -7,10 +7,10 @@ use Illuminate\Http\Request;
 
 class ContractArticleController extends Controller
 {
-    // GET: Récupérer tous les articles de contrat avec pagination
+    // GET: Récupérer tous les articles de contrat
     public function index()
     {
-        $articles = ContractArticle::paginate(10); // Récupère 10 articles par page
+        $articles = ContractArticle::all(); // Récupère tous les articles
         return response()->json($articles, 200);
     }
 
